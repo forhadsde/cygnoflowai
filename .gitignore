@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.env
+*.egg
+
+# Virtual environment
+cygnoflow-env/
+
+# Large model weights (download separately)
+IDM-VTON/ckpt/densepose/model_final_162be9.pkl
+IDM-VTON/ckpt/humanparsing/parsing_atr.onnx
+IDM-VTON/ckpt/humanparsing/parsing_lip.onnx
+IDM-VTON/ckpt/openpose/ckpts/body_pose_model.pth
+IDM-VTON/ckpt/ip_adapter/ip-adapter-plus_sdxl_vit-h.bin
+IDM-VTON/ckpt/image_encoder/model.safetensors
+# IDM-VTON HuggingFace model weights (6-12 GB each, download separately)
+IDM-VTON/ckpt/IDM-VTON/
+
+# Compiled detectron2 extensions
+IDM-VTON/gradio_demo/detectron2/_C*.so
+
+# Output images (except tracked ones)
+result/
+
+# Misc
+.DS_Store
+*.log
