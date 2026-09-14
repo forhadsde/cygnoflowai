@@ -1,0 +1,18 @@
+{
+  "step": "int8_xformers_upcast",
+  "vram_peak_gb": 11.3,
+  "inference_time_s": 23.6,
+  "optimisations": [
+    "int8_weights",
+    "xformers",
+    "upcast_attention"
+  ],
+  "weight_precision": "int8 weights, float16 activations",
+  "attention": "xformers FlashAttention + upcast_attention=True (float32 accumulation)",
+  "layers_quantised": 1646,
+  "weight_saved_mb": 4651,
+  "resolution": "768x1024",
+  "hypothesis": "upcast_attention fixes xformers colour shift by computing attention in float32",
+  "colour_accurate": false,
+  "colour_note": "xformers replaces the entire attention kernel with its own CUDA impl (FlashAttention), bypassing the upcast_attention Python code path entirely. upcast_attention has no effect when xformers is enabled."
+}

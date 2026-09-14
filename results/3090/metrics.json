@@ -1,0 +1,12 @@
+{
+  "gpu": "RTX 3090 24GB",
+  "mode": "all_gpu_no_offload",
+  "dtype": "float16",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "vram_peak_gb": 16.29,
+  "load_time_s": 1255.9,
+  "inference_time_s": 23.2,
+  "output": "C:\\Users\\Rey\\Documents\\GitHub\\cygnoflow\\results\\3090\\tryon_output.png"
+}

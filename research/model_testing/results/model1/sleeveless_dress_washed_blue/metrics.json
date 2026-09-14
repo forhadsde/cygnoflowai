@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "sleeveless_dress_washed_blue",
+  "garment_desc": "washed blue sleeveless denim dress with front buttons",
+  "mask_category": "dresses",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.6,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

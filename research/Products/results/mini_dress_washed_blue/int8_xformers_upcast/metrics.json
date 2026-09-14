@@ -1,0 +1,12 @@
+{
+  "product": "mini_dress_washed_blue",
+  "config": "int8_xformers_upcast",
+  "garment_desc": "washed blue denim sleeveless fitted mini dress",
+  "mask_category": "dresses",
+  "vram_peak_gb": 11.29,
+  "inference_time_s": 24.6,
+  "layers_quantised": 1646,
+  "weight_saved_mb": 4651,
+  "colour_accurate": false,
+  "resolution": "768x1024"
+}

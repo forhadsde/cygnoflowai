@@ -1,0 +1,13 @@
+{
+  "gpu": "RTX 3090 24GB (CPU offload, simulates 8 GB)",
+  "mode": "cpu_offload_per_step",
+  "dtype": "float16",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "cpu_offload": "manual_alternating_unet_enc",
+  "vram_peak_gb": 6.58,
+  "load_time_s": 9.6,
+  "inference_time_s": 76.6,
+  "output": "C:\\Users\\Rey\\Documents\\GitHub\\cygnoflow\\results\\baseline\\tryon_output.png"
+}

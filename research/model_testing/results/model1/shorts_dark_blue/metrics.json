@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "shorts_dark_blue",
+  "garment_desc": "dark blue casual street denim shorts",
+  "mask_category": "lower_body",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.9,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

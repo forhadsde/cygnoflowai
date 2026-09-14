@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "jacket_washed_blue",
+  "garment_desc": "washed blue denim jacket with front buttons and short sleeves",
+  "mask_category": "upper_body",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.3,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

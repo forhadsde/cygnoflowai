@@ -1,0 +1,12 @@
+{
+  "product": "mini_dress_washed_blue",
+  "config": "int4_attn_slicing",
+  "garment_desc": "washed blue denim sleeveless fitted mini dress",
+  "mask_category": "dresses",
+  "vram_peak_gb": 9.05,
+  "inference_time_s": 43.0,
+  "layers_quantised": 1646,
+  "weight_saved_mb": 6980,
+  "colour_accurate": false,
+  "resolution": "768x1024"
+}

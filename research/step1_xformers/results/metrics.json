@@ -1,0 +1,22 @@
+{
+  "step": "step1_xformers",
+  "gpu": "RTX 3090 24GB",
+  "mode": "all_gpu_xformers",
+  "optimisations": [
+    "xformers_memory_efficient_attention",
+    "vae_tiling"
+  ],
+  "dtype": "float16",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "seed": 42,
+  "vram_peak_gb": 15.58,
+  "vram_saved_vs_baseline_gb": 0.71,
+  "load_time_s": 14.5,
+  "inference_time_s": 24.2,
+  "speedup_vs_baseline": 0.96,
+  "baseline_vram_gb": 16.29,
+  "baseline_time_s": 23.2,
+  "output": "C:\\Users\\Rey\\Documents\\GitHub\\cygnoflow\\research\\step1_xformers\\results\\tryon_output.png"
+}

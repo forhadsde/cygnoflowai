@@ -1,0 +1,15 @@
+{
+  "step": "step0_baseline",
+  "gpu": "RTX 3090 24GB",
+  "mode": "all_gpu_no_offload",
+  "optimisations": [],
+  "dtype": "float16",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "seed": 42,
+  "vram_peak_gb": 16.28,
+  "load_time_s": 13.3,
+  "inference_time_s": 23.9,
+  "output": "C:\\Users\\Rey\\Documents\\GitHub\\cygnoflow\\research\\step0_baseline\\results\\tryon_output.png"
+}

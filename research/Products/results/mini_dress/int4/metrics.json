@@ -1,0 +1,12 @@
+{
+  "product": "mini_dress",
+  "config": "int4",
+  "garment_desc": "denim sleeveless casual fitted mini dress",
+  "mask_category": "dresses",
+  "vram_peak_gb": 9.28,
+  "inference_time_s": 30.2,
+  "layers_quantised": 1646,
+  "weight_saved_mb": 6980,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

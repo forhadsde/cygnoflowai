@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "mini_dress_dark_blue",
+  "garment_desc": "dark blue denim sleeveless fitted mini dress",
+  "mask_category": "dresses",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.3,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

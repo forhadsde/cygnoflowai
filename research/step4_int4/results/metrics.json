@@ -1,0 +1,24 @@
+{
+  "step": "step4_int4",
+  "gpu": "RTX 3090 24GB",
+  "optimisations": [
+    "int4_weights",
+    "xformers_memory_efficient_attention"
+  ],
+  "dtype": "float16 activations, int4 weights",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "seed": 42,
+  "vram_peak_gb": 9.06,
+  "vram_saved_vs_baseline_gb": 7.23,
+  "vram_saved_vs_step2_gb": 2.23,
+  "inference_time_s": 27.5,
+  "unet_layers_quantised": 905,
+  "unet_enc_layers_quantised": 741,
+  "weight_memory_before_mb": 10592,
+  "weight_memory_after_mb": 3612,
+  "weight_memory_saved_mb": 6980,
+  "baseline_vram_gb": 16.29,
+  "step2_vram_gb": 11.29
+}

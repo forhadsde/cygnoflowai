@@ -1,0 +1,15 @@
+{
+  "step": "int4_attn_slicing",
+  "vram_peak_gb": 9.06,
+  "inference_time_s": 42.0,
+  "optimisations": [
+    "int4_weights",
+    "attention_slicing"
+  ],
+  "weight_precision": "int4 weights (bit-packed), float16 activations",
+  "attention": "sliced (1 head at a time) -- zero quality loss",
+  "layers_quantised": 1646,
+  "weight_saved_mb": 6980,
+  "resolution": "768x1024",
+  "colour_accurate": true
+}

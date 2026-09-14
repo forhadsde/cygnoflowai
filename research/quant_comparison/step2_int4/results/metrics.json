@@ -1,0 +1,10 @@
+{
+  "step": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.5,
+  "optimisations": "int4_weights",
+  "weight_precision": "int4 weights (bit-packed), float16 activations",
+  "layers_quantised": 1646,
+  "weight_saved_mb": 6980,
+  "resolution": "768x1024"
+}

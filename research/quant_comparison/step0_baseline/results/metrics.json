@@ -1,0 +1,8 @@
+{
+  "step": "baseline",
+  "vram_peak_gb": 16.28,
+  "inference_time_s": 22.9,
+  "optimisations": "none",
+  "weight_precision": "float16",
+  "resolution": "768x1024"
+}

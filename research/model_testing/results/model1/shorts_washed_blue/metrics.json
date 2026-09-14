@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "shorts_washed_blue",
+  "garment_desc": "washed blue casual street denim shorts",
+  "mask_category": "lower_body",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.6,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

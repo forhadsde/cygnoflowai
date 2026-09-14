@@ -1,0 +1,10 @@
+{
+  "step": "int8",
+  "vram_peak_gb": 11.7,
+  "inference_time_s": 25.4,
+  "optimisations": "int8_weights",
+  "weight_precision": "int8 weights, float16 activations",
+  "layers_quantised": 1646,
+  "weight_saved_mb": 4651,
+  "resolution": "768x1024"
+}

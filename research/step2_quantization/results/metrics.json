@@ -1,0 +1,29 @@
+{
+  "step": "step2_quantization",
+  "gpu": "RTX 3090 24GB",
+  "mode": "all_gpu_int8_xformers",
+  "optimisations": [
+    "w8a16_int8_weights",
+    "xformers_memory_efficient_attention",
+    "vae_tiling"
+  ],
+  "quantisation": "W8A16 per-channel symmetric int8 (pure PyTorch)",
+  "layers_quantised": {
+    "unet": 905,
+    "unet_encoder": 741
+  },
+  "weight_memory_saved_mb": 4651.5,
+  "dtype": "float16 activations, int8 weights",
+  "resolution": "768x1024",
+  "steps": 30,
+  "guidance_scale": 2.0,
+  "seed": 42,
+  "vram_peak_gb": 11.29,
+  "vram_saved_vs_baseline_gb": 5.0,
+  "vram_saved_vs_step1_gb": 2.78,
+  "load_time_s": 24.2,
+  "inference_time_s": 24.7,
+  "baseline_vram_gb": 16.29,
+  "step1_vram_gb": 14.07,
+  "output": "C:\\Users\\Rey\\Documents\\GitHub\\cygnoflow\\research\\step2_quantization\\results\\tryon_output.png"
+}

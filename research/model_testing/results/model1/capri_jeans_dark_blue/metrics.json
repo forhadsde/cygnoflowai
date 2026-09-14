@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "capri_jeans_dark_blue",
+  "garment_desc": "dark blue capri denim jeans",
+  "mask_category": "lower_body",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.4,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}

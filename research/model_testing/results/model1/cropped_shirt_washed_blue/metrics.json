@@ -1,0 +1,11 @@
+{
+  "model": "model1",
+  "product": "cropped_shirt_washed_blue",
+  "garment_desc": "washed blue denim cropped shirt with short sleeves",
+  "mask_category": "upper_body",
+  "config": "int4",
+  "vram_peak_gb": 9.3,
+  "inference_time_s": 28.4,
+  "colour_accurate": true,
+  "resolution": "768x1024"
+}
